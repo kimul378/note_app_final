@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kicky Notes</title>
+    <link rel="icon" href="favicon.png" sizes="48x48" />
+</head>
+<body>
+    <custom-header></custom-header>
+    <custom-menu></custom-menu>
+    <div class="container">
+        <button id="darkModeSwitcher" class="dark-mode-switcher"></button>
+        <button id="fontSizer" class="font-sizer"></button>
+        <h1>
+            <custom-figure></custom-figure>
+         </h1>
+        <form id="noteForm">
+            <input type="text" id="noteTitle" placeholder="Judul Catatan" required>
+            <textarea id="noteBody" placeholder="Isi Catatan" required></textarea>
+            <button type="submit">Tambah Catatan</button>
+        </form>
+        <div id="notesList"></div>
+    </div>
+    <custom-footer></custom-footer>
+</body>
+</html>
